@@ -6,6 +6,13 @@ import java.util.Scanner;
 
 import VotingSystems.*;
 
+/**
+ * 
+ * @author Warren Godone-Maresca
+ * 
+ * A demonstration of a program that gets multiple ballots from a single line.
+ *
+ */
 public class Poll {
 
 	private final String COMMAND = "\\go";
