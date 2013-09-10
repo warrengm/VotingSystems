@@ -1,0 +1,9 @@
+This projects provides implementation for various ranked ballot voting algorithms. At this moment it includes  first past the post (plurality voting), instant runoff voting (AKA the alternative vote and ranked choice voting), the Borda count, and the Condorcet Method. More systems will be implemented in the future.
+The code includes a poll.java class which runs a sample the voting program in the console. It demonstrates how to add multiple ballots in a single line.
+Valid formats for ballots include
+	first choice > second choice > third choice (etc.)
+	first choice, second choice, third choice (etc.)
+	first choice; second choice; third choice (etc.)
+Multiple ballots can be added in a single line as in the following example
+	100 first choice > second choice > third choice (etc.)
+This will add 100 of the above ballot. Omitting the number will add a single ballot. Numbers must be followed by a space in the sample program.
